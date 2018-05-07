@@ -1,4 +1,7 @@
 *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     margin:0;
     padding:0;
     font-family: 'Franklin Gothic Medium';
@@ -9,6 +12,11 @@ body{
     background-image:url("https://image.freepik.com/free-vector/house-blueprint_23-2147513507.jpg") ;
     display: flex;
     min-height: 100vh;
+}
+
+.formulario > div {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
 }
 
 form{
@@ -51,6 +59,23 @@ input[type="submit"]:hover {
 input[type="submit"]:active{
     transform: scale(0.5);
     color: black;
+}
+
+input[type="radio"]:active {
+    transform: scale(2);
+    color: black;
+}
+label[for="masculino"]{
+    color: blue;
+}
+
+label[for="femenino"]{
+    color: red;
+}
+
+label{
+    align-content: center;
+    font-size: 20px;
 }
 
 @media (max-width:700px){
