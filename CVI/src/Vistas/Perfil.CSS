@@ -34,10 +34,15 @@ div[id="Imagen"]{
     height: 35%;
     float: left;
 }
-div[id="Info"]{
-    width: 100%;
+div[id="agenda"]{
+    width: 50%;
     height: 50%;
-    margin-top: 20px;
+    float: right;
+    background-color: rgb(250, 225, 114);
+}
+div[id="Info"]{
+    width: 50%;
+    height: 50%;
     float: left;
 }
 label{
@@ -58,6 +63,11 @@ h2{
     text-align: left;
     margin-bottom: 20px;
     color: black;
+}
+hr[id="Cuaderno"]{
+    margin-bottom: 20px;
+    height: 2px;
+    color: rgb(64, 64, 247);
 }
 hr{
     height: 10px;
